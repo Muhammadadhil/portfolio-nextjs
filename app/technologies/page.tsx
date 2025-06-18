@@ -5,38 +5,39 @@ import TechCard from "@/components/tech-card"
 
 export default function TechnologiesPage() {
   const technologies = [
-    {
-      category: "Frontend",
-      techs: [
-        { name: "React.js", icon: "react" },
-        { name: "TypeScript", icon: "typescript" },
-        { name: "JavaScript", icon: "javascript" },
-        { name: "HTML5", icon: "html" },
-        { name: "CSS3", icon: "css" },
-        { name: "Tailwind CSS", icon: "tailwind" },
-      ],
-    },
-    {
-      category: "Backend",
-      techs: [
-        { name: "Node.js", icon: "nodejs" },
-        { name: "Express.js", icon: "express" },
-        { name: "MongoDB", icon: "mongodb" },
-        { name: "REST API", icon: "api" },
-        { name: "GraphQL", icon: "graphql" },
-      ],
-    },
-    {
-      category: "Tools & Others",
-      techs: [
-        { name: "Git", icon: "git" },
-        { name: "GitHub", icon: "github" },
-        { name: "VS Code", icon: "vscode" },
-        { name: "Docker", icon: "docker" },
-        { name: "AWS", icon: "aws" },
-      ],
-    },
-  ]
+      {
+          category: "Frontend",
+          techs: [
+              { name: "React.js", icon: "react" },
+              { name: "Next.js", icon: "Nextjs" },
+              { name: "TypeScript", icon: "typescript" },
+              { name: "JavaScript", icon: "javascript" },
+              { name: "HTML5", icon: "html" },
+              { name: "CSS3", icon: "css" },
+              { name: "Tailwind CSS", icon: "tailwind" },
+          ],
+      },
+      {
+          category: "Backend",
+          techs: [
+              { name: "Node.js", icon: "nodejs" },
+              { name: "Express.js", icon: "express" },
+              { name: "MongoDB", icon: "mongodb" },
+              { name: "REST API", icon: "api" },
+              { name: "Rabbitmq", icon: "rabbitmq" },
+          ],
+      },
+      {
+          category: "Tools & Others",
+          techs: [
+              { name: "Git", icon: "git" },
+              { name: "GitHub", icon: "github" },
+              { name: "VS Code", icon: "vscode" },
+              { name: "Docker", icon: "docker" },
+              { name: "AWS", icon: "aws" },
+          ],
+      },
+  ];
 
   const container = {
     hidden: { opacity: 0 },

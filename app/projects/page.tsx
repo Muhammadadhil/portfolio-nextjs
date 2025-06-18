@@ -11,14 +11,14 @@ export default function ProjectsPage() {
           description: "A platform that connect the freelancers and clients accross the world.",
           technologies: ["Microservices", "Node.js", "Express", "MongoDB", "Redux", "React", "tanstack query"],
           image: "/opportune-.png?height=400&width=600",
-          link: "#",
+          link: "https://opportune.muhammadadhil.site/",
       },
       {
           id: 2,
-          title: "Furbar - E-Commerce Platform",
+          title: "Homiqo E-commerce Platform",
           description: "A full-featured e-commerce platform with user authentication, product management, cart functionality, and payment integration.",
           technologies: ["React", "Node.js", "Express", "MongoDB", "Redux", "Stripe"],
-          image: "/furbar.png?height=400&width=600",
+          image: "/homiqo-homepage.png?height=400&width=600",
           link: "https://e-commerce-applicaton.onrender.com/",
       },
       {
@@ -27,7 +27,7 @@ export default function ProjectsPage() {
           description: "A collaborative task management application with real-time updates, task assignment, and progress tracking features.",
           technologies: ["React", "TypeScript", "Node.js", "Socket.io", "MongoDB"],
           image: "/task-mgt.png?height=400&width=600",
-          link: "#",
+          link: "https://task-mangement-delta.vercel.app/",
       },
   ];
 

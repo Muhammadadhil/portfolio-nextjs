@@ -54,7 +54,7 @@ export default function Home() {
 
                             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
                                 <p className="text-xl text-muted-foreground md:text-2xl">
-                                    <AnimatedText text="MERN Stack Developer" />
+                                    <AnimatedText text="Full Stack Developer" />
                                 </p>
                             </motion.div>
 
@@ -110,7 +110,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className="p-1 md:p-2 bg-muted">
-                                                <iframe src="cv/cv_muhammdadhil_br.pdf" className="w-full h-[70vh] border rounded-md bg-white" title="CV Preview"></iframe>
+                                                <iframe src="cv/Muhammad_Adhil_Resume.pdf" className="w-full h-[70vh] border rounded-md bg-white" title="CV Preview"></iframe>
                                             </div>
                                             <div className="p-4 border-t flex justify-end">
                                                 <Button
